@@ -25,7 +25,7 @@ Private keys remain in the release Mac's Keychain with encrypted offline backup.
 Do not upload tokens, credentials, mailbox data or unsigned placeholder feeds.
 Each app uses its own Sparkle key; channels for the same app share that key.
 
-Custom domain: updates.sidewayslivi.ng. Configure it in repository Settings > Pages
-before switching DNS. Pages source: main branch, /docs. Require HTTPS after the
-certificate is issued. Domain ownership verification is recommended in account
-Settings > Pages using the exact TXT record supplied by GitHub.
+Current Pages origin: https://sideways-living.github.io/updates/. The previous
+custom domain was removed because its DNS still pointed to the old VPS and returned
+404 responses. Restore the custom domain only after its DNS points to GitHub Pages
+and HTTPS has been verified without redirects to another host.
